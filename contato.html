@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- Define a codificação de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Responsividade para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título exibido na aba do navegador -->
+    <title>Ketlyn_ | Contato</title>
+
+    <!-- Arquivo CSS principal -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Área principal do conteúdo -->
+    <section class="conteudo-principal">
+
+        <!-- Botão para ativar/desativar o modo escuro -->
+        <button id="toggle-dark">🌙 Modo escuro</button>
+
+        <!-- Título principal -->
+        <h2 class="titulo-principal">
+            Olá, eu sou a <span>Ketlyn_</span>
+        </h2>
+
+        <div class="conteudos">
+
+            <!-- Menu de navegação -->
+            <nav class="botoes">
+
+                <!-- Classe "ativo" identifica a página atual -->
+                <a href="sobre.html" class="botao">
+                    Sobre Mim
+                </a>
+
+                <a href="formacao.html" class="botao">
+                    Formação
+                </a>
+
+                <a href="portfolio.html" class="botao">
+                    Portfólio
+                </a>
+
+                <a href="contato.html" class="botao ativo">
+                    Contato
+                </a>
+
+            </nav>
+
+            <!-- Área dos textos e formulário -->
+            <div class="abas-textos">
+
+                <!-- Título da seção -->
+                <h3 class="aba-conteudo-titulo-principal">
+                    Contato
+                </h3>
+
+                <!-- Subtítulo -->
+                <h4 class="aba-conteudo-titulo-secundario">
+                    Informações para entrar em contato
+                </h4>
+
+                <!-- Formulário de contato -->
+                <form id="formulario-contato">
+
+                    <!-- Campo nome -->
+                    <div class="campo">
+
+                        <label>Nome</label>
+
+                        <input 
+                            type="text" 
+                            id="nome" 
+                            placeholder="Digite seu nome"
+                        >
+
+                    </div>
+
+                    <!-- Campo e-mail -->
+                    <div class="campo">
+
+                        <label>E-mail</label>
+
+                        <input 
+                            type="email" 
+                            id="email" 
+                            placeholder="Digite seu e-mail"
+                        >
+
+                    </div>
+
+                    <!-- Campo mensagem -->
+                    <div class="campo"> <label>Mensagem</label> <textarea id="mensagem" rows="6" placeholder="Digite sua mensagem"></textarea> </div>
+
+                    <!-- Botão de envio -->
+                    <button type="submit" class="btn-enviar">
+
+                        Enviar Mensagem
+
+                    </button>
+
+                    <!-- Área onde o JavaScript pode mostrar mensagens -->
+                    <!-- Exemplo: "Mensagem enviada com sucesso" -->
+                    <p id="mensagem-status"></p>
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Arquivo JavaScript responsável pelas interações -->
+    <script src="main.js"></script>
+
+</body>
+</html>
