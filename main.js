@@ -1,7 +1,4 @@
-/* ===================================================== */
 /* DARK MODE COM LOCAL STORAGE */
-/* ===================================================== */
-
 const toggleDark = document.getElementById("toggle-dark");
 
 /* Recupera o tema salvo */
@@ -45,11 +42,7 @@ if (toggleDark) {
     };
 }
 
-
-/* ===================================================== */
 /* FORMULÁRIO DE CONTATO */
-/* ===================================================== */
-
 const formulario = document.getElementById("formulario-contato");
 
 if (formulario) {
@@ -59,11 +52,8 @@ if (formulario) {
         event.preventDefault();
 
         const nome = document.getElementById("nome").value.trim();
-
         const email = document.getElementById("email").value.trim();
-
         const mensagem = document.getElementById("mensagem").value.trim();
-
         const status = document.getElementById("mensagem-status");
 
         if (nome === "" || email === "" || mensagem === "") {
